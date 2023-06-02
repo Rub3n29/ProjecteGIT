@@ -1,4 +1,5 @@
 <?php include("conexion.php");
+
 $codigo=$_GET['codigo'];
 $query = "SELECT * FROM Articulos WHERE id_articulos=$codigo";
 $result = mysqli_query($conexion, $query);
