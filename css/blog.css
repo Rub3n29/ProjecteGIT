@@ -144,3 +144,7 @@ div.derecha{
 div.noticias{
     border: 1px solid red;
 }
+
+div.imagen{
+    float: left;
+}

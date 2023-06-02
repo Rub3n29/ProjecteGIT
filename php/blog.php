@@ -106,7 +106,6 @@ else {
                 <div class="noticias">
                     <div class="imagen">
                         <img src="../img/<?php echo $imagen; ?>" width="200px" height="200px" />
-
                     </div>
 
                     <div class="titulo">
