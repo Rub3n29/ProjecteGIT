@@ -131,7 +131,6 @@ p.limpiar {
 div.izquierda{
     height: 600px;
     width: 65%;
-
     float: left;
 }
 
@@ -140,4 +139,8 @@ div.derecha{
     width: 35%;
 
     float: right;
+}
+
+div.noticias{
+    border: 1px solid red;
 }
