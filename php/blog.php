@@ -107,7 +107,7 @@ else {
                     <div class="imagen">
                         <img src="../img/<?php echo $imagen; ?>" width="200px" height="200px" />
                     </div>
-                    <div>
+                    <div class="texto">
                         <div class="titulo">
                             <h2>
                                 <?php echo $titulo; ?>

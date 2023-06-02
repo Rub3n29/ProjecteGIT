@@ -147,3 +147,7 @@ div.noticias{
 div.imagen{
     float: left;
 }
+
+div.texto{
+    float: right;
+}
