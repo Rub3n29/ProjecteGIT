@@ -107,23 +107,24 @@ else {
                     <div class="imagen">
                         <img src="../img/<?php echo $imagen; ?>" width="200px" height="200px" />
                     </div>
+                    <div>
+                        <div class="titulo">
+                            <h2>
+                                <?php echo $titulo; ?>
+                            </h2>
 
-                    <div class="titulo">
-                        <h2>
-                            <?php echo $titulo; ?>
-                        </h2>
+                        </div>
+                        <div class="descripcion">
+                            <p>
+                                <?php echo $descripcion; ?>
+                            </p>
 
-                    </div>
-                    <div class="descripcion">
-                        <p>
-                            <?php echo $descripcion; ?>
-                        </p>
-
-                    </div>
-                    <div class="fecha">
-                        <p>
-                            <?php echo $fecha; ?>
-                        </p>
+                        </div>
+                        <div class="fecha">
+                            <p>
+                                <?php echo $fecha; ?>
+                            </p>
+                        </div>
                     </div>
                 </div>
 

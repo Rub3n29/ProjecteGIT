@@ -137,13 +137,11 @@ div.izquierda{
 div.derecha{
     height: 600px;
     width: 35%;
-
     float: left;
 }
 
 div.noticias{
     border: 1px solid red;
-    height: 70px;
 }
 
 div.imagen{
