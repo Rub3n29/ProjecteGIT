@@ -1,0 +1,97 @@
+
+body {
+    background-color: rgb(231, 225, 225);
+}
+
+div#contenedor {
+    width: 1170px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+
+div#Imagen {
+    width: 570px;
+    height: 770px;
+    float: left;
+    margin-top: -40px;
+}
+
+#Imagen img{
+    width: 570px;
+    height: 650px;
+}
+
+div#informacion {
+    width: 570px;
+    height: 770px;
+    float: right;
+}
+.encabezado {
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Descripcion_corta {
+    font-size: 16px;
+    color: #888888;
+}
+
+.Descripcion_larga {
+    margin-bottom: 10px;
+}
+
+p{
+    border-bottom: 2px solid grey;
+    border-style: dotted;
+}
+
+.Descripcion_larga p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.detalles {
+    flex-wrap: wrap;
+}
+
+.detalles div {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.detalles h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.boton-volver,
+.mas-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(154, 208, 255);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.mas-info {
+    background-color: rgb(157, 208, 253);
+    float: left;
+}
+.boton-volver {
+    float: right;
+}
+
+.mas-info:hover,
+.boton-volver:hover {
+    background-color: rgb(102, 183, 253);
+}

@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(186, 230, 255);
+ }
+ 
+
+
+ div#contenedor {
+     width: 1170px;
+     margin: 0px auto;
+     padding: 0px auto;
+ }
+
+ div#encabezado {
+     height: 55px;
+     background-image: url(../img/encabezado.jpg);
+     border-radius: 5px;
+     margin-bottom: 20px;
+ }
+
+ div h1#aquaverse{
+     margin-top: 10px;
+     margin-left: 50px;
+     width: 300px;
+     height: 45px;
+     color: rgb(92, 163, 255);
+     float: left;
+     font-size: xx-large;
+     text-align: center;
+     text-shadow: 0 0 5px rgb(115, 115, 255), 0 0 25px rgb(115, 115, 255), 0 0 50px rgb(115, 115, 255), 0 0 200px rgb(115, 115, 255);
+ }   
+
+ div h1#aquaverse:hover{
+     text-shadow: 0 0 5px #ff88a2, 0 0 25px #ff88a2, 0 0 50px #ff88a2, 0 0 200px #ff88a2;
+ }
+
+ div.logo {
+     width: 180px;
+     height: 55px;
+     float: left;
+     background-image: url(../img/Mi\ proyecto.png);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+
+ div.menu {
+     width: 550px;
+     height: 55px;
+     float: right;
+ }
+
+ div.menu li{
+     float: left;
+     list-style: none;
+     width: 110px;
+     height: 55px;
+     display: block; 
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     transition: 1s;
+ }
+
+ div.menu a{
+     color: rgb(228, 176, 176);
+     font-style:initial;
+     font-weight: bold;
+     text-decoration:none ;
+    
+ }
+
+ div.menu li:hover {
+     background-color: #298dff;
+     transition: 1s;
+     border-radius: 5px;
+ }
+
+ div.menu li:hover>a{
+     color: aliceblue;
+     text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+     transition: 1s;
+ }
+
+ div.panel {
+     display: none;
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     text-align: center;
+     top: 55px;
+     background-image: url(../img/encabezado.jpg);
+     z-index: 99;
+ }
+
+
+ div.panel ul li a span {
+     display: block;
+     font-family: 'Oswald', sans-serif;
+     border-bottom: grey;
+     
+ }
+
+ div.panel ul li  {
+     border-bottom: 1px solid #298dff;
+     margin-left: 20%;
+     margin-top: 8px;
+ }
+
+ div.menu li:hover div.panel {
+     transition: 1s;
+     display: block;
+     position: absolute;
+ }
+
+ div.menu li div.panel li:hover {
+     background-color: #298dff;
+     box-shadow: 0 0 5px #298dff, 0 0 25px #298dff, 0 0 50px #298dff, 0 0 200px #298dff;
+     text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+ }  
+
+ div.panel ul li a span {
+     display: block;
+     font-family: 'Oswald', sans-serif;
+
+ }
+
+p.limpiar {
+    clear: both;
+}
+
+div#gallery{
+    text-align: center;
+    font-size:xx-large;
+    text-shadow: 0 0 5px rgb(115, 115, 255), 0 0 25px rgb(115, 115, 255), 0 0 50px rgb(115, 115, 255), 0 0 200px rgb(115, 115, 255);
+}
+
+h1#gallery{
+    text-align: center;
+}
+
+div.foto {
+    height: 330px;
+    width: 265px;
+    display: block;
+    position: relative;
+    float: left;
+    transition: 2s;
+    margin: 5px;
+    background-color: rgb(121, 121, 255);
+    border: 2px solid rgb(121, 121, 255);
+    border-style: dotted;
+}
+
+
+
+div.foto img{
+    height: 300px;
+    width: 230px;
+    transition: 2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+div.foto:hover {
+    background: rgb(159, 210, 255);
+    transition: all 2s;
+    box-shadow: 0 0 5px rgb(159, 210, 255), 0 0 25px rgb(159, 210, 255), 0 0 50px rgb(159, 210, 255), 0 0 200px rgb(159, 210, 255);
+    cursor:pointer ;
+    border-radius: 10%;
+
+
+}
+
+div.foto:hover img{
+    transition: 2s;
+    border-radius: 8%;
+}
